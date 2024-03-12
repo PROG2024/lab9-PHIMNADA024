@@ -26,7 +26,8 @@ class Circle:
         Since area is pi*r**2, the radii of the 3 circles
         should form a Pythagorean triple (r1^2 + r2^2 = r3^2)
 
-        >>> Circle.add_area(Circle(3), Circle(4))
+        >>> c1 = Circle(3)
+        >>> c1.add_area(Circle(4))
         Circle(5.0)
 
         """
