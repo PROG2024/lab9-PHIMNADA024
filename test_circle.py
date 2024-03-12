@@ -27,4 +27,3 @@ class TestCircle(unittest.TestCase):
         with self.assertRaises(Exception):
             c1 = Circle(-2)
             c2 = Circle(-4)
-
